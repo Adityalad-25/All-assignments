@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registration>
+ <Person>
+ <Username>Mohini12</Username>
+ <Email>mohini.mehta21@pccoepune.org</Email>
+ <Password>12345678</Password>
+ <Languages>Marathi</Languages>
+ <Country>India</Country>
+ <Gender>Female</Gender>
+ <Address>Ravet</Address>
+ <Zip>412101</Zip>
+ <About>Computer Engineer</About>
+ </Person>
+ <Person>
+ <Username>Suhani662</Username>
+ <Email>suhani.patil21@pccoepune.org</Email>
+ <Password>abc123de</Password>
+ <Languages>English</Languages>
+ <Country>US</Country>
+ <Gender>Female</Gender>
+ <Address>Chinchwad</Address>
+ <Zip>411021</Zip>
+ <About>Mechanical Engineer</About>
+ </Person>
+</registration>

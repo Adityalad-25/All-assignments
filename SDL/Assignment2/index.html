@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <form class="text-center" id="registrationForm">
+    <div>
+        <h2>Registration form</h2>
+    </div>
+
+    <div>
+        Username <input type="text" class="form-control" id="Username" placeholder="Username">
+    </div>
+    <hr>
+    <div>
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <hr>
+    <div>
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="Password" placeholder="Password">
+    </div>
+    <hr>
+    <div id="language">
+        Select Languages<br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">English</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Marathi</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+            <label class="form-check-label" for="inlineCheckbox2">Hindi</label>
+        </div>
+    </div>
+    <hr>
+    <div class="form-group" id="country">
+        <label for="exampleFormControlSelect1">Select Country</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>India</option>
+            <option>US</option>
+            <option>UK</option>
+            <option>China</option>
+            <option>Russia</option>
+        </select>
+    </div>
+    <hr>
+    <div id="gender">
+        Select Gender<br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="male" value="Male" checked>
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="female" value="Female">
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+    </div>
+    <hr>
+    <div id="address">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <hr>
+    <div id="pincode">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip" placeholder="Enter pincode">
+    </div>
+    <hr>
+    <div id="About">
+        <p><label for="w3review">About:</label></p>
+        <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Enter text here"></textarea>
+    </div>
+    <div>
+        <button type="button" class="button" onclick="validateForm()">Submit</button>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
