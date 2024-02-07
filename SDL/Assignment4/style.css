@@ -1,3 +1,12 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp9103853.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Adding a fallback font */
+}
+
 .container {
     width: 50%;
     margin: 50px auto;
@@ -31,5 +40,5 @@ button:hover {
 
 p {
     margin-top: 20px;
-    color: green;
+    color: red;
 }
